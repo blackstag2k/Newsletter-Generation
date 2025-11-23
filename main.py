@@ -1,6 +1,6 @@
 import google.genai as genai
 import pandas as pd
-client = genai.Client(api_key="AIzaSyASXDeSvV1THlbiUsIFnQfKvbLs3myxSVE")
+client = genai.Client(api_key="ENTER_API_KEY")
 
 def generate_outline(topic):
     prompt = f"Generate a detailed, bi-weekly newsletter outline for topic: {topic}. Promote children's stories (picture to middle grade) set in urban environments. The structure must be mobile-responsive and target parents/educators. Include: A vibrant Subject Line, One Featured Story (Image, Summary, Age, Strong CTA), An Urban Explorer Challenge (actionable city activity), City Shelf Picks (2-3 diverse recommendations), and Feedback/Share links. Ensure the content highlights urban diversity and is concise and scannable."
@@ -51,4 +51,5 @@ newsletter_data = {
 df = pd.DataFrame(newsletter_data)
 
 df.to_csv(r"C:\Users\Bhaskar Rana\OneDrive\Desktop\newsletter_generation.csv", index=False)
+
 print("Newsletter is generated and saved to newsletter_generation.csv")
