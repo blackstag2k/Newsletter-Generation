@@ -40,7 +40,7 @@ python main.py
 **Output**
 
 Output CSV:
-| topic | Outline | Newsletter | Critique | Summary
+| Topic | Outline | Newsletter | Critique | Summary
 |-------|--------|--------|--------|--------|
 | Urban Tails and Trails Newsletter | Outline of the Newsletter | Newsletter Content | Critique of the Newsletter Content and Revision | Summary of 60 words for the Newsletter |
 
@@ -57,4 +57,4 @@ Output CSV:
 - Prompt chaining to execute multiple prompts and get the best results.
 
 
-* Documented during the Prompt Engineering Course for Prompt Chaining and Content Generation
+Documented during the Prompt Engineering Course for Prompt Chaining and Content Generation
