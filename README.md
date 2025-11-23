@@ -10,7 +10,7 @@ genai package - outline - newsletter 1 - criticism *newsletter 2* - summary - sa
 
 1. Cloning the repository:
 
-git clone https://github.com/blackstag2k/Prompt-Engineering-Projects.git
+git clone https://github.com/blackstag2k/Newsletter-Generation.git
 
 2. Installing the Dependencies for the project:
 
