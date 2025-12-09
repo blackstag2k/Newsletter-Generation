@@ -4,7 +4,27 @@ This project is about generating a 200-250-word newsletter from a topic through 
 
 ## Workflow
 
-genai package - outline - newsletter 1 - criticism *newsletter 2* - summary - saved in csv
+```mermaid
+flowchart TD
+
+A[Start]
+A --> B[genai package]
+
+B --> C[Generate Outline]
+C --> D[Outline Result]
+
+D --> E[Generate Newsletter 1]
+E --> F[Newsletter 1 Result]
+
+F --> G[Criticism & Improvements]
+G --> H[Newsletter 2 (Improved)]
+
+H --> I[Generate Summary]
+I --> J[Save to CSV]
+
+J --> K[End]
+```
+
 
 ## Steps to Run the Code
 
