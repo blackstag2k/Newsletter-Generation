@@ -5,24 +5,17 @@ This project is about generating a 200-250-word newsletter from a topic through 
 ## Workflow
 
 ```mermaid
+%%{init: {'flowchart': {'curve':'linear'}}}%%
 flowchart TD
-
-A[Start]
-A --> B[genai package]
-
-B --> C[Generate Outline]
-C --> D[Outline Result]
-
-D --> E[Generate Newsletter 1]
-E --> F[Newsletter 1 Result]
-
-F --> G[Criticism & Improvements]
-G --> H[Newsletter 2 (Improved)]
-
-H --> I[Generate Summary]
-I --> J[Save to CSV]
-
-J --> K[End]
+  A[Start]
+  A --> B["genai package"]
+  B --> C["Outline"]
+  C --> D["Newsletter 1"]
+  D --> E["Criticism & Improvements"]
+  E --> F["Newsletter 2 (improved)"]
+  F --> G["Summary"]
+  G --> H["Save to CSV"]
+  H --> I[End]
 ```
 
 
